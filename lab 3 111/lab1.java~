@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class lab1
+{
+     public static void main(String[]args)
+     {
+           Scanner j=new Scanner(System.in);
+           System.out.println("give me a string");
+           string a=j.nextString();
+           System.out.println(a.length);
+     }
+}

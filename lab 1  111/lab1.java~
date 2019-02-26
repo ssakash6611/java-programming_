@@ -1,0 +1,10 @@
+public class lab1
+{
+    public static void main(string[]args)
+    {
+        for (int c=1;c<=6;c++)
+        { 
+            system.out.print(*);
+        }
+    }
+}

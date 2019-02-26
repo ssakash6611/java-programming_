@@ -1,0 +1,10 @@
+public class Guitar extends Instruments{
+  public void play()
+  {
+      System.out.println("In the playing method of Guitar");
+  }
+  public void adjust()
+  {
+      System.out.println("In the playing method of Guitar")
+  }
+}

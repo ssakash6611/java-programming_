@@ -1,0 +1,10 @@
+public class main
+{
+    public static void main(String[]args)
+    {
+        Guitar a=new Guitar();
+        a.play();
+        a.adjust();
+        a.compose();
+    }
+}
