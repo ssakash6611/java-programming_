@@ -1,0 +1,16 @@
+public class studenttester
+{
+      public static void main(String[]args)
+      {
+             student s1=new student();
+             s1.setName("John");
+             s1.setID("13201015");
+             s1.setAddress("maohakhali");
+             s1.serCGPA(2.29);
+             
+             System.out.println(s1.getName());
+             System.out.println(s1.getID());
+             System.out.println(s1.getAddress());
+             System.out.println(s1.getCGPA());
+      }
+}

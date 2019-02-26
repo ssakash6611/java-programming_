@@ -1,0 +1,9 @@
+import java.util.*;
+public class Task05{
+    public static void main(String[]args){
+        String kisuShongkha = "74.5                89          \n    45";
+        String a[]=kisuShongkha.split(" |\n");
+        for(int c=1;c<a.length;c++)
+        {
+          System.out.print(a[c]+",");
+        }
