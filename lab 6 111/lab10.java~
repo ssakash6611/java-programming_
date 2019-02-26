@@ -1,0 +1,28 @@
+import jave.util.Scanner;
+public class lab10
+    {
+       public static void main(String[]args)
+       {
+            Scanner j=new Scanner(System.in);
+            System.out.println("give me a string");
+            String a=j.next();
+            System.out.println("give me a another String");
+            String b=j.next();
+            Char a1=a.toCharArray();
+            Char b2=b.toCharArray();
+            for(int c=0;c<a1.length;c++)
+            {
+                if(a1[c]=b2[c])
+                {
+                    f=true;
+                }
+                else
+                {
+                  f=false
+                    break;
+                }
+            }
+              System.out.println(f);
+       }
+}
+  

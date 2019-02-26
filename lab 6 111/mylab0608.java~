@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class mylab0608
+  
+{ public static void main(String[]args)
+  {
+      Scanner j=new Scanner(System.in);
+      System.out.println("give me a big string");
+      String a=j.next();
+      char []s=a.toCharArraay();
+      for(int c=0;c<=s.length;c++)
+      {
+          System.out.print((int)'s[c]'+32);
+      }
+}
+}

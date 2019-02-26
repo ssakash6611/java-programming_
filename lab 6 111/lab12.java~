@@ -1,0 +1,31 @@
+import java .util.Scanner;
+public class lab12
+{
+     public static void main(String[]args)
+     {
+           Scanner j =new Scanner(System.in);
+           System.out.println("give me a String");
+           String a=j.next();
+           System.out.println("give me a another String");
+           String b=j.next();
+           char a1=a.toCharArray();
+           char b1=b.toCharArray();
+           int sum=0;
+           for(int c=0;c<b.length)
+           {
+             if(a1.charAt(c)==b1.charAt(c))
+             {
+               sum=sum+0;
+             }
+             else if(a1.charAt(c)>b1.charAt(c))
+             {
+               sum=sum+((int)b1[c]-(int)a1[c]);
+             }
+             else if(a1.charAt(c)<b1.charAt(c))
+             {
+               sum=sum+((int)b1[c]-(int)a1[c]);
+             }
+           }
+           System.out.println(sum);
+     }
+}

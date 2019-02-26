@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class lab16
+{ public static void main(String[]args)
+  {
+      Scanner j=new Scanner(System.in);
+      System.out.println("give me a big string");
+      String a=j.next();
+      char s[]=a.toCharArray();
+      System.out.println("give me a character");
+      String a1=j.next();
+      char ch=a1.charAt(0);
+      int n=1;
+      
+      for(int c=0;c<s.length;c++)
+      {
+          if(s[c]==ch)
+          {
+            break;
+            n++;
+          }
+      }
+      if(s[n]==ch)
+      {
+        System.out.println(n);
+      }
+      else
+      {
+        System.out.println(-1);
+      }
+}
+}

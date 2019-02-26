@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class mylab0601
+{ public static void main(String[]args)
+  {
+      Scanner j=new Scanner(System.in);
+      String a=j.next();
+      char[]b=a.tochrArray();
+      System.out.println(a.length);
+}
+}
